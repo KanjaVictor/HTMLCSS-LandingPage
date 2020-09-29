@@ -13,10 +13,11 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
   left: auto;
   right: auto;
   max-width: 1170px;
+  margin: 0 auto;
 }
 
 /*Rule that selects all section elements in index.html*/
-.section{
+section{
     display: flex;
 }
 /*Flex utility class*/
@@ -27,7 +28,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
   flex-direction: column;
 }
 .flex-one{
-  flex: 1
+  flex: 1;
 }
 
 .align-center{
@@ -42,21 +43,21 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 
 /*Button style*/
 .btn{
-  cursor: auto;
-  border: none;
+  cursor: pointer;
+  border: 0;
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 12px;
   padding-right: 12px;
   border-radius: 3px;/*rounded corners*/
-  height: 1.4;
+  line-height: 1.4;
 }
 .btn-default{
-  background-color: #faa541
+  background-color: #faa541;
   color: white;
 }
 .btn-primary{
-  background-color: #364147
+  background-color: #364147;
   color: white;
 }
 
@@ -67,8 +68,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
   padding-bottom: 6px;
   padding-left: 12px;
   padding-right: 12px;
-  border: 1px;
-  border-color: #a0a0a0;
+  border: 1px solid #a0a0a0;
   color: #8598a2;
   line-height:1.4;
 }
@@ -83,5 +83,5 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 }
 .text-secondary{
   font-size: 30px;
-  color: #faa541
+  color: #faa541;
 }
